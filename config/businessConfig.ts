@@ -39,11 +39,11 @@ export interface BusinessConfig {
 }
 
 export const businessConfig: BusinessConfig = {
-  businessName: "Art Tattoo Shop Galway",
+  businessName: "Galway Bay Tattoo",
   tagline: "Premium Tattoos & Piercings in the Heart of Galway",
-  phoneDisplay: "+353 (0) 91 562 822",
-  phoneNumbers: ["+35391562822"],
-  whatsAppNumber: "353871234567", // Ireland code 353 + mobile
+  phoneDisplay: "+353 (8) 58 588 656",
+  phoneNumbers: ["+353858588656"],
+  whatsAppNumber: "353858588656", // Ireland code 353 + mobile
   email: "info@arttattoogalway.com",
   address: "Unit 25B Terryland House, Terryland Retail Park, Headford Road, Galway, H91 28H2",
   // Google Maps embed URL for Art Tattoo Shop Galway Ireland
