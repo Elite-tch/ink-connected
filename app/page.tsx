@@ -109,7 +109,7 @@ export default function Home() {
               initial="hidden"
               animate="visible"
               variants={staggerContainer}
-              className="flex flex-col items-center lg:items-start justify-center gap-6 text-center lg:text-left max-w-xl w-full"
+              className="flex flex-col items-center lg:items-start justify-center gap-4 md:gap-6 text-center lg:text-left max-w-xl w-full"
             >
 
 
@@ -205,7 +205,7 @@ export default function Home() {
           </motion.div>
 
           {/* About Right Text */}
-          <div className="flex-1 flex items-center justify-center px-6 sm:px-10 lg:px-16 py-16 lg:py-24">
+          <div className="flex-1 flex items-center justify-center px-6 sm:px-10 lg:px-16 py-10 lg:py-24">
             <motion.div
               initial={{ opacity: 0, x: 30 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -345,7 +345,7 @@ export default function Home() {
       <section className="py-14 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-          <div className="text-center flex flex-col items-center gap-4 mb-16">
+          <div className="text-center flex flex-col items-center gap-4 mb-8 md:mb-16">
             <span className="text-[#670b10] font-bold text-xs uppercase tracking-wider">
               TESTIMONIALS
             </span>
